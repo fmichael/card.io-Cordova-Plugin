@@ -31,10 +31,10 @@
         <!-- Plugin implementation -->
         <header-file src="src/ios/CardIOCordovaPlugin.h" />
         <source-file src="src/ios/CardIOCordovaPlugin.m" />
-        
+
         <podspec>
             <config>
-                <source url="https://github.com/CocoaPods/Specs.git"/>
+                <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
                 <pod name="CardIO" spec="~> 5.4.1" />
